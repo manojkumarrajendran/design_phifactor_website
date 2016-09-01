@@ -286,6 +286,8 @@ outline: 9999px solid rgba(0,0,0,0.5);
 
 section.welcome-section {
 	background: rgba(0,0,0,0.4) ! important;
+    
+
 }
 
 
@@ -749,17 +751,10 @@ a#newsletter {
 /*	background: rgba(0,0,0,0.3);*/
 }
 
-
- .sa {
+.controls .fa {
 	color: #A5ABB5;
 	font-size: 25px;
-	margin:12px 0 0 -11px;
-	position: absolute;
-}
- .sa1 {
-	color: #A5ABB5;
-	font-size: 25px;
-	margin:13px 0 0 -30px;
+	margin: 13px 0 0 -30px;
 	position: absolute;
 }
 

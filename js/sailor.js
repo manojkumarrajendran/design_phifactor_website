@@ -274,7 +274,7 @@ $('.carousel').carousel({
 			styles: [	
 			
 					{	stylers:[			{hue:'#f1e7c0'},			{invert_lightness:true},			{saturation:-80},			{lightness:20},			{gamma:0}	]	},
-					{   featureType:'water',		elementType:'geometry',		stylers:[			{color:'#333333'},]	},
+					{		featureType:'water',		elementType:'geometry',		stylers:[			{color:'#333333'},]	},
 					{'featureType':'landscape','stylers':[{'color':'#2B2D35'}]},]
 				};
 	

@@ -138,7 +138,7 @@ border: 5px solid rgba(0, 0, 0, 0.2);
 	height: 40px;
 	padding: 6px 10px 0px 10px;
     font-size: 15px;
-/*	opacity: 0.8;*/
+	opacity: 0.8;
 }
 
 /* The actual popup */
@@ -155,7 +155,7 @@ border: 5px solid rgba(0, 0, 0, 0.2);
     z-index: 1000;
     bottom: 130%;
     left: -142%; 
-/*    opacity: 0.9;*/
+    opacity: 0.9;
 }
 
 /* Popup arrow */
@@ -190,7 +190,7 @@ border: 5px solid rgba(0, 0, 0, 0.2);
 	height: 40px;
 	padding: 8px 10px 0px 10px;
     font-size: 15px;
-/*	opacity: 0.8;*/
+	opacity: 0.8;
 /*    margin-left:12px ! important;*/
 }
 
@@ -207,8 +207,8 @@ border: 5px solid rgba(0, 0, 0, 0.2);
     z-index: 1000;
     bottom: 130%;
     left: -110%; 
-    
-    min-height:939% ! important
+    opacity: 0.9;
+    height:917% ! important
 }
 
 /* Popup arrow */
@@ -238,7 +238,7 @@ border: 5px solid rgba(0, 0, 0, 0.2);
 	height: 40px;
 	padding: 8px 10px 0px 10px;
     font-size: 15px;
-/*	opacity: 0.8;*/	
+	opacity: 0.8;
     margin-left:12px ! important;
 }
 
@@ -255,8 +255,7 @@ border: 5px solid rgba(0, 0, 0, 0.2);
     z-index: 1000;
     bottom: 130%;
     left: -110%; 
-    min-height:644%;
-    
+    opacity: 0.9;
 }
 
 /* Popup arrow */
@@ -334,14 +333,8 @@ border: 5px solid rgba(0, 0, 0, 0.2);
 	height: 40px;
 	padding: 8px 10px 0px 10px;
     font-size: 15px;
-/*	opacity:0.8;*/
+	opacity:0.8;
   margin-left:-8px ! important
-}
-    .sa {
-    color: #A5ABB5;
-    font-size: 25px;
-    margin: 12px 0 0 63px;
-    position: absolute;
 }
 .popup2 {
     position: relative;
@@ -357,7 +350,7 @@ border: 5px solid rgba(0, 0, 0, 0.2);
 	height: 40px;
 	padding: 8px 10px 0px 10px;
     font-size: 15px;
-/*	opacity:0.8;*/
+	opacity:0.8;
   margin-left:-8px ! important
 }
 .popup .popuptext {
@@ -386,7 +379,7 @@ border: 5px solid rgba(0, 0, 0, 0.2);
     z-index: 1000;
     bottom: 130%;
     left: -77%;
-    min-height: 552%;
+    height: 552%;
 }
 .popup2 .popuptext2 {
     display: none;
@@ -400,7 +393,7 @@ border: 5px solid rgba(0, 0, 0, 0.2);
     z-index: 1000;
     bottom: 130%;
     left: -77%;
-    min-height:645%;
+    height:611%;
 }
 .subscribeBtn{
 	margin-bottom: 13px !important;
@@ -473,7 +466,7 @@ width: 308px;
     bottom: 130%;
     left: -59%;
     
-     min-height: 633%;
+     height: 633%;
 }
 .subscribeBtn{
 	margin-bottom: 13px !important;
@@ -535,12 +528,6 @@ p.copy {
     border-bottom-left-radius: 5px ! important;
     margin-top: 151%;
     margin-left: -99% ! important;
-}
-      .sa {
-    color: #A5ABB5;
-    font-size: 25px;
-    margin: 12px 0 0 105px;
-    position: absolute;
 }
       
 } 
@@ -700,12 +687,11 @@ body {
                 <input type="text" class="form-control1" id="s-mail-sub" required name="s_email" placeholder="Email">
                     <span id="s-mail-field" style="display:none;position:absolute;z-index:10000"><img src="img/popup_field.png"/></span>
                 <span class="input-group-btn">
-                    <span id="s-mail-loader" class="fa fa-spinner fa-spin sa1" style="display:none;"></span>
+                    <span id="s-mail-loader"class="fa fa-spinner fa-spin" style="display:none;"></span>
                 <button class="btn btn_sub" type="button" onclick="sendSubscriberMail()">Subscribe</button>
                 </span>
                 </div>
 				</form>
-                <div id="result1" style="margin-top:9px"></div>
 				</span>
 				
                 </div>
@@ -723,16 +709,14 @@ body {
                 <div class="input-group contactBottom">
                 <input type="text" class="form-control" id="c-mail-sub" required name="c_email" placeholder="Email">
                 <span id="c-mail-field" style="display:none;position:absolute;z-index:10000"><img src="img/popup_field.png"/></span>
-                <textarea class="form-control" id="c-mail-comment" style="height:54%;resize:none;" placeholder="your message.."></textarea>
-                <span id="c-comment-field" style="display:none;position:absolute;z-index:10000;"><img src="img/popup_field.png"/></span>
+                <textarea class="form-control" id="c-mail-comment"  placeholder="Comments"  style="height:54%;resize:none;"> </textarea>
+                    <span id="c-comment-field" style="display:none;position:absolute;z-index:10000;"><img src="img/popup_field.png"/></span>
                 <span class="input-group-btn">
-                <span id="c-mail-loader"class="fa fa-spinner fa-spin sa" style="display:none;"></span>
+                    <span id="c-mail-loader"class="fa fa-spinner fa-spin" style="display:none;"></span>
                 <button class="btn btn_sub1" type="button" onclick="sendContactMail()">Contact</button>
-                
                 </span>
                 </div>
 				</form>
-                <div id="result" style="margin-top:-16px"></div>
 				</span>
 				
                 </div>
@@ -742,7 +726,7 @@ body {
                 </div>
                 </div>
 
-             
+               <div id="result"></div>
                 </div>
                 </div>
                 </div>
@@ -852,8 +836,8 @@ if(isset($_POST["s_email"]) || isset($_POST["c_email"])) {
                     data: {s_email:mail},
                     success: function(data) {
                         $("#s-mail-loader").hide();
-                        $('#result1').empty();
-                        $('#result1').append(data).html();
+                        $('#result').empty();
+                        $('#result').append(data).html();
                         $("#s-mail-sub").val("");
 
                     },
